@@ -25,4 +25,4 @@ In this usecase, we are going to determine how easy it is to use Computer Vision
 
 **Note: Again, this is not a scientifically rigorous study, nor will it be published in a journal and should only be referred to for educational purposes.**
 
-#### Thank You
+## Thank You
