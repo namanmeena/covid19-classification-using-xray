@@ -1,6 +1,6 @@
 # COVID19 Classification using Chest XRay
 
-Inspired by [Adrian Rosebrockop's blog - 'Detecting COVID-19 in X-ray images with Keras, TensorFlow, and Deep Learning
+Inspired by [Adrian Rosebrock's blog - 'Detecting COVID-19 in X-ray images with Keras, TensorFlow, and Deep Learning
 '](https://www.pyimagesearch.com/2020/03/16/detecting-covid-19-in-x-ray-images-with-keras-tensorflow-and-deep-learning/)
 
 ## Disclaimer:
