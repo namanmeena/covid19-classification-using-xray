@@ -9,11 +9,20 @@ Inspired by [Adrian Rosebrock's blog - 'Detecting COVID-19 in X-ray images with 
 This repository contains one notebook solving the use case, which uses FastAI library.
 
 ## About FastAI
-Fast.ai is a brainchild of Rachel Thomas and Jeremy Howard. The idea behind FastAI is to democratize AI to reach people from all domains. They have created a complex but simple to use library which does all the heavy lifting for you so that you can focus on building the model and domain specific nuances and not worry too much about setting things up. Fast AI offers much more abstraction than Keras. Keras as you might know is built over Tensorflow whereas Fast AI is built over PyTorch. To illustrate the level of abstraction provided by Fast AI compared to Keras, a 31 line code in Keras to setup resnet50 model requires just 5 lines of code in Fast AI! Fast AI allows you to build learning models at a blazingly fast pace. I’ve recently started learning fast.ai and classifying x-ray images is one of the 3–4 different classifier models I was able to create in a couple of days.
+Fast.ai is a brainchild of Rachel Thomas and Jeremy Howard. The idea behind FastAI is to democratize AI to reach people from all domains.
 
-Keras is built on top of TensorFlow and therefore provides abstraction over Google's TensorFlow, but being so powerful, it still requires you to write a lot of lines of code to get things done. Therefore, to quickly setup and experiment and analyze, FastAI is my go to preference.
+Keras is another library, built on top of TensorFlow and therefore provides abstraction over Google's TensorFlow. Although, being very powerful, it still requires you to write a lot of lines of code to get things done. Therefore, to quickly get started with experimentation, FastAI is good and my personal preference.
 
 ## About Dataset
 
 The dataset used in this use-case is from [Kaggle - 'COVID-19 RADIOGRAPHY DATABASE (Winner of the COVID-19 Dataset Award)
 '](https://www.kaggle.com/tawsifurrahman/covid19-radiography-database)
+
+
+## Key Takeaways
+
+In this usecase, we are going to determine how easy it is to use Computer Vision techniques with FastAI library to classify images of XRays, which are not very easy with human eyes. With just ~3000 images, we will be able to determine whether a patient is COVID Positive or just has Viral Pneumonia or is NORMAL.
+
+**Note: Again, this is not a scientifically rigorous study, nor will it be published in a journal and should only be referred to for educational purposes.**
+
+#### Thank You
